@@ -9,3 +9,6 @@ spec:
       version: ">=1.0.1"
   test:
     enable: false
+  values:
+    service:
+      type: LoadBalancer
