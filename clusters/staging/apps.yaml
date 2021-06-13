@@ -16,5 +16,5 @@ spec:
   healthChecks:
     - apiVersion: helm.toolkit.fluxcd.io/v1beta1
       kind: HelmRelease
-      name: spacehub-frontend
-      namespace: spacehub-frontend
+      name: podinfo
+      namespace: podinfo
